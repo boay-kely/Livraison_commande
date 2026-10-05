@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f4f3f0;
+  --color-card: #faf9f6;
+  --color-primary: #2a5c43;
+  --color-accent: #d97706;
+  --color-text: #1c1917;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top left, rgba(42, 92, 67, 0.08), transparent 45%),
+    radial-gradient(ellipse at bottom right, rgba(217, 119, 6, 0.1), transparent 40%),
+    var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
